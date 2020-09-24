@@ -42,3 +42,7 @@ labels:
     labeled:
       issue:
         body: Thank you @{{ issue.user.login }} for suggesting this.
+  - name: 액션짱
+    labeled:
+      issue:
+        body: 안녕하세요 @{{ issue.user.login }} 님 액션은 참 멋진 것 같아요! 🚀
